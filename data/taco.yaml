@@ -1,0 +1,20 @@
+# yolov5/data/taco.yaml
+
+train: ../taco_dataset/images/train
+val: ../taco_dataset/images/val
+
+nc: 60
+names:
+  [
+    "aluminum foil", "battery", "blister pack", "bottle", "cardboard", "clothing",
+    "food", "glass", "metal", "paper", "plastic", "polystyrene", "trash", "can",
+    "cup", "straw", "cigarette", "label", "napkin", "net", "paper bag",
+    "paper plate", "paper straw", "pizza box", "plastic bag", "plastic bottle",
+    "plastic container", "plastic cup", "plastic lid", "plastic straw", "pop tab",
+    "rope", "scrap metal", "shoe", "shredded paper", "six pack rings", "snack bag",
+    "sponge", "spreader", "styrofoam cup", "styrofoam piece", "takeout container",
+    "tin can", "to-go cup", "toothpaste tube", "utensil", "wax paper", "wrapper",
+    "drink carton", "foam tray", "food can", "food wrapper", "fruit peel",
+    "plastic film", "jar", "juice box", "paper carton", "aluminum can",
+    "cardboard cup", "other"
+  ]
