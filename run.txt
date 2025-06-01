@@ -1,0 +1,8 @@
+-- 가상환경 실행
+.\yolov5_venv\Scripts\activate.ps1
+
+-- 웹캡 실행
+python detect.py --weights best.pt --source 0 --data data/taco.yaml --conf-thres 0.25 --view-img
+
+-- 이미지 분류
+python detect.py --weights best.pt --source path/to/your/image.jpg --data data/taco.yaml --conf-thres 0.25 --view-img
